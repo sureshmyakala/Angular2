@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular2", "Angular2\Angular2.csproj", "{FD862677-C6CC-4B96-A39C-6ABDD1691732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xml", "Xml\Xml.csproj", "{2A937417-BE51-4548-B383-A879065F61FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD862677-C6CC-4B96-A39C-6ABDD1691732}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD862677-C6CC-4B96-A39C-6ABDD1691732}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD862677-C6CC-4B96-A39C-6ABDD1691732}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD862677-C6CC-4B96-A39C-6ABDD1691732}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A937417-BE51-4548-B383-A879065F61FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A937417-BE51-4548-B383-A879065F61FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A937417-BE51-4548-B383-A879065F61FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A937417-BE51-4548-B383-A879065F61FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
