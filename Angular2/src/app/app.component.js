@@ -9,17 +9,25 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
-        this.name = 'Tom';
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
-            template: "Name:<input [(ngModel)]='name'>\n<br>You entered : {{name}}"
+            template: "\n                    <div style=\"padding:5px\">\n                        <ul class=\"nav nav-tabs\">\n                            <li routerLinkActive=\"active\">\n                                <a routerLink=\"home\">Home</a>\n                            </li>\n                            <br/>\n                            <li routerLinkActive=\"active\">\n                                <a routerLink=\"employees\">Employees</a>\n                            </li>\n                        </ul>\n                        <br/>\n                        <router-outlet></router-outlet>\n                    </div>"
+            //template: `<list-employee></list-employee>`
         })
     ], AppComponent);
     return AppComponent;
 }());
 exports.AppComponent = AppComponent;
+//@Component({
+//    selector: 'my-app',
+//    template: `Name:<input [(ngModel)]='name'>
+//<br>You entered : {{name}}`
+//})
+//export class AppComponent {
+//    name: string = 'Tom';
+//}
 //import { Component } from '@angular/core';
 //@Component({
 //    selector: 'my-app',

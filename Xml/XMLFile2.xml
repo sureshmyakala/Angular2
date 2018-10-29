@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FactorGroup>
+  <Id>Base1</Id>
+  <Name>BaseName1</Name>
+  
+  <FactorEntity>
+    <Id>EntityChild1</Id>
+    <Name>EntityChildName1</Name>
+  </FactorEntity>
+  
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+    <FactorEntity>
+      <Id>Child2</Id>
+      <Name>ChildName2</Name>
+    </FactorEntity>
+    <FactorEntity>
+      <Id>Child2</Id>
+      <Name>ChildName2</Name>
+    </FactorEntity>
+    <FactorEntity>
+      <Id>Child2</Id>
+      <Name>ChildName2</Name>
+    </FactorEntity>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+    <FactorEntity>
+      <Id>Child3</Id>
+      <Name>ChildName2</Name>
+    </FactorEntity>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+    <FactorEntity>
+      <Id>Child4</Id>
+      <Name>ChildName4</Name>
+    </FactorEntity>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+    <FactorEntity>
+      <Id>Child21</Id>
+      <Name>ChildName21</Name>
+    </FactorEntity>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+    <FactorEntity>
+      <Id>Child31</Id>
+      <Name>ChildName31</Name>
+    </FactorEntity>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+    <FactorEntity>
+      <Id>Child41</Id>
+      <Name>ChildName41</Name>
+    </FactorEntity>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+    <FactorEntity>
+      <Id>Child51</Id>
+      <Name>ChildName51</Name>
+    </FactorEntity>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+    <FactorEntity>
+      <Id>Child61</Id>
+      <Name>ChildName61</Name>
+    </FactorEntity>
+  </FactorGroup>
+
+  <FactorGroup>
+    <Id>{FD83508F-1B0F-4FD7-88C6-F15CDA815774}</Id>
+    <Name>RadonMeasurementAndMitigationContractors</Name>
+    <FactorEntity>
+      <Id>Child71</Id>
+      <Name>ChildName71</Name>
+    </FactorEntity>
+  </FactorGroup>
+
+</FactorGroup>

@@ -9,16 +9,32 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var platform_browser_1 = require("@angular/platform-browser");
 var forms_1 = require("@angular/forms");
+var http_1 = require("@angular/http");
 var app_component_1 = require("./app.component");
+var router_1 = require("@angular/router");
 var employee_component_1 = require("./employee/employee.component");
+var employeeList_component_1 = require("./employee/employeeList.component");
+var employeeTitle_1 = require("./employee/employeeTitle");
+var employeeCount_1 = require("./employee/employeeCount");
+var home_component_1 = require("./home/home.component");
+var pageNotFound_component_1 = require("./Other/pageNotFound.component");
+var employee_service_1 = require("./employee/employee.service");
+var appRoutes = [
+    { path: 'home', component: home_component_1.HomeComponent },
+    { path: 'employees', component: employeeList_component_1.EmployeeListComponent },
+    { path: 'employees/:code', component: employee_component_1.EmployeeComponent },
+    { path: '', redirectTo: '/home', pathMatch: 'full' },
+    { path: '**', component: pageNotFound_component_1.PageNotFoundComponent }
+];
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [platform_browser_1.BrowserModule, forms_1.FormsModule],
-            declarations: [app_component_1.AppComponent, employee_component_1.EmployeeComponent],
-            bootstrap: [app_component_1.AppComponent]
+            imports: [platform_browser_1.BrowserModule, forms_1.FormsModule, http_1.HttpModule, router_1.RouterModule.forRoot(appRoutes, { useHash: true })],
+            declarations: [app_component_1.AppComponent, employee_component_1.EmployeeComponent, employeeList_component_1.EmployeeListComponent, employeeTitle_1.EmployeeTitlePipe, employeeCount_1.EmployeeCountComponent, home_component_1.HomeComponent, pageNotFound_component_1.PageNotFoundComponent],
+            bootstrap: [app_component_1.AppComponent],
+            providers: [employee_service_1.EmployeeService]
         })
     ], AppModule);
     return AppModule;

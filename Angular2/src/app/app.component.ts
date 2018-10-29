@@ -1,14 +1,36 @@
 import { Component } from '@angular/core';
 
+
 @Component({
     selector: 'my-app',
-    template: `Name:<input [(ngModel)]='name'>
-<br>You entered : {{name}}`
+    template: `
+                    <div style="padding:5px">
+                        <ul class="nav nav-tabs">
+                            <li routerLinkActive="active">
+                                <a routerLink="home">Home</a>
+                            </li>
+                            <br/>
+                            <li routerLinkActive="active">
+                                <a routerLink="employees">Employees</a>
+                            </li>
+                        </ul>
+                        <br/>
+                        <router-outlet></router-outlet>
+                    </div>`
+    //template: `<list-employee></list-employee>`
 })
 
-export class AppComponent {
-    name: string = 'Tom';
-}
+export class AppComponent { }
+
+//@Component({
+//    selector: 'my-app',
+//    template: `Name:<input [(ngModel)]='name'>
+//<br>You entered : {{name}}`
+//})
+
+//export class AppComponent {
+//    name: string = 'Tom';
+//}
 
 
 //import { Component } from '@angular/core';
